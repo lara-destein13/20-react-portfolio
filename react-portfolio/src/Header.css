@@ -1,6 +1,17 @@
 .Header {
-    background-color: light-grey;
+    background-color: #11ABC1;
+    color: white;
     display: flex;
     flex-direction: row;
     height: 80px;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 25px;    
 }
+
+.Name {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+

@@ -41,6 +41,7 @@ class Header extends Component {
     render() {
         return (
             <div className="Header">
+                <div className="Name">Lara DeStein</div>
                 <a onClick={this.aboutMeClicked}>&nbsp;AboutMe&nbsp;</a>
                 <a onClick={this.contactMeClicked}>&nbsp;ContactMe&nbsp;</a>
                 <a onClick={this.portfolioClicked}>&nbsp;Portfolio&nbsp;</a>

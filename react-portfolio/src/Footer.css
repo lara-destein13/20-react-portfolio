@@ -1,5 +1,6 @@
 .Footer {
-    background-color: yellow;
+    background-color: #11ABC1;
+    color: white;
     display: flex;
     flex-direction: row;
     height: 80px;
