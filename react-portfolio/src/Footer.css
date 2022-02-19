@@ -2,4 +2,5 @@
     background-color: yellow;
     display: flex;
     flex-direction: row;
+    height: 80px;
 }
