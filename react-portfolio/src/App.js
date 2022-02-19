@@ -1,15 +1,15 @@
 import logo from './logo.svg';
 import autoBind from 'auto-bind';
 import React, { Component } from 'react';
-// import AboutMe from './AboutMe';
-// import ContactMe from './ContactMe';
-// import Footer from './Footer';
-// import Header from './Header';
-// import Portfolio from './Portfolio';
-// import Resume from './Resume';
+import AboutMe from './AboutMe';
+import ContactMe from './ContactMe';
+import Footer from './Footer';
+import Header from './Header';
+import Portfolio from './Portfolio';
+import Resume from './Resume';
 import './App.css';
 
-class App extends Componenet {
+class App extends Component {
   // constructor
   constructor(props) {
     super(props);
@@ -25,12 +25,25 @@ class App extends Componenet {
     if (this.state.middle !== 'ABOUT_ME') {
       return null;
     }
-    return( <div>contactMe</div> );
+    return( <AboutMe/> );
+  }
+
+  // renderContactMe
+  renderContactMe() {
+    if (this.state.middle !== 'CONTACT_ME') {
+      return null;
+    }
+    return( <ContactMe/> );
   }
 
   // renderFooter
   renderFooter() {
-    return( <div>footer</div> );
+    return( <Footer/> );
+  }
+
+  // renderHeader
+  renderHeader() {
+    return( <Header/> );
   }
 
   // renderPortfolio
@@ -38,7 +51,7 @@ class App extends Componenet {
     if (this.state.middle !== 'PORTFOLIO') {
       return null;
     }
-    return( <div>aportfolio</div> );
+    return( <Portfolio/> );
   }
 
   // renderResume
@@ -46,7 +59,7 @@ class App extends Componenet {
     if (this.state.middle !== 'RESUME') {
       return null;
     }
-    return( <div>resume</div> );
+    return( <Resume/> );
   }
 
   // render
