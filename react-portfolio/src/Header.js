@@ -15,25 +15,25 @@ class Header extends Component {
     // aboutMeClicked
     aboutMeClicked() {
         console.log('aboutMeClicked');
-        return null;
+        this.props.app.showAboutMe();
     }
 
     // contactMeClicked
     contactMeClicked() {
         console.log('contactMeClicked');
-        return null;
+        this.props.app.showContactMe();
     }
 
     // portfolioClicked
     portfolioClicked() {
         console.log('portfolioClicked');
-        return null;
+        this.props.app.showPortfolio();
     }
 
     // resumeClicked
     resumeClicked() {
         console.log('resumeClicked');
-        return null;
+        this.props.app.showResume();
     }
 
 

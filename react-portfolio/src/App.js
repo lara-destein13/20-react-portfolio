@@ -43,7 +43,7 @@ class App extends Component {
 
   // renderHeader
   renderHeader() {
-    return( <Header/> );
+    return( <Header app={this}/> );
   }
 
   // renderPortfolio
@@ -61,6 +61,28 @@ class App extends Component {
     }
     return( <Resume/> );
   }
+
+  // showAboutMe
+  showAboutMe() {
+    this.setState({ middle: 'ABOUT_ME' });
+  }
+
+  // showContactMe
+  showContactMe() {
+    this.setState({ middle: 'CONTACT_ME' })
+  }
+
+  // showPortfolio
+  showPortfolio() {
+    this.setState({ middle: 'PORTFOLIO' });
+  }
+
+  // showResume
+  showResume() {
+    this.setState({ middle: 'RESUME' });
+  }
+
+
 
   // render
   render() {
