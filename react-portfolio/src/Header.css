@@ -1,3 +1,5 @@
 .Header {
     background-color: light-grey;
+    display: flex;
+    flex-direction: row;
 }

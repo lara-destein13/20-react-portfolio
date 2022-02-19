@@ -65,7 +65,7 @@ class App extends Component {
   // render
   render() {
     return (
-      <div>
+      <div className="App">
         { this.renderHeader() }
         { this.renderAboutMe() }
         { this.renderContactMe() }

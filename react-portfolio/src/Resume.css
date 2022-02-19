@@ -1,3 +1,5 @@
 .Resume {
     background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
 }

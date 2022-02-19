@@ -1,3 +1,5 @@
 .ContactMe {
     background-color: green;
+    display: flex;
+    flex-direction: row;
 }
