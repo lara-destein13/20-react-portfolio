@@ -12,10 +12,40 @@ class Header extends Component {
         }
     }
 
+    // aboutMeClicked
+    aboutMeClicked() {
+        console.log('aboutMeClicked');
+        return null;
+    }
+
+    // contactMeClicked
+    contactMeClicked() {
+        console.log('contactMeClicked');
+        return null;
+    }
+
+    // portfolioClicked
+    portfolioClicked() {
+        console.log('portfolioClicked');
+        return null;
+    }
+
+    // resumeClicked
+    resumeClicked() {
+        console.log('resumeClicked');
+        return null;
+    }
+
+
     // render
     render() {
         return (
-            <div className="Header">Header</div>
+            <div className="Header">
+                <a onClick={this.aboutMeClicked}>&nbsp;AboutMe&nbsp;</a>
+                <a onClick={this.contactMeClicked}>&nbsp;ContactMe&nbsp;</a>
+                <a onClick={this.portfolioClicked}>&nbsp;Portfolio&nbsp;</a>
+                <a onClick={this.resumeClicked}>&nbsp;Resume&nbsp;</a>
+            </div>    
         );
     }
 }
