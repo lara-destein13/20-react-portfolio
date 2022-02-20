@@ -1,6 +1,35 @@
 .ContactMe {
-    background-color: green;
     display: flex;
     flex-grow: 1;
     flex-direction: row;
 }
+
+.Form {
+    border: 2px solid #2b7682;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+}
+
+.text-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.email-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.message-input {
+    resize: none;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
