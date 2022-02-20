@@ -17,13 +17,13 @@ class ContactMe extends Component {
         return (
             <div className="ContactMe">
                 <form className="Form">
-                    <label for="name">Enter full name:</label>
+                    <label for="name" className="label">Enter full name:</label>
                     <input type="text" className="text-input" />
-                    <label for="email">Enter email address:</label>
+                    <label for="email" className="label">Enter email address:</label>
                     <input type="email" className="email-input" />
-                    <label for="message">Message:</label>
+                    <label for="message" className="label">Message:</label>
                     <textarea type="textarea" className="message-input"></textarea>
-                    <input type="submit" value="Submit"/>
+                    <button type="submit"className="message-submit">Submit</button>
                 </form>              
             </div>
         );
