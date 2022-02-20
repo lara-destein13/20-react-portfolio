@@ -42,10 +42,12 @@ class Header extends Component {
         return (
             <div className="Header">
                 <div className="Name">Lara DeStein</div>
-                <a onClick={this.aboutMeClicked}>&nbsp;AboutMe&nbsp;</a>
-                <a onClick={this.contactMeClicked}>&nbsp;ContactMe&nbsp;</a>
-                <a onClick={this.portfolioClicked}>&nbsp;Portfolio&nbsp;</a>
-                <a onClick={this.resumeClicked}>&nbsp;Resume&nbsp;</a>
+                    <nav className="Nav">
+                        <a onClick={this.aboutMeClicked} className="Link">&nbsp;AboutMe&nbsp;</a>
+                        <a onClick={this.contactMeClicked} className="Link">&nbsp;ContactMe&nbsp;</a>
+                        <a onClick={this.portfolioClicked} className="Link">&nbsp;Portfolio&nbsp;</a>
+                        <a onClick={this.resumeClicked} className="Link">&nbsp;Resume&nbsp;</a>
+                    </nav>    
             </div>    
         );
     }
