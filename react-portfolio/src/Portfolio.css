@@ -3,14 +3,14 @@
     flex-grow: 1;
     flex-direction: row;
     flex-wrap: wrap;
-    border: 2px solid red;
 }
 
-.projects {
-    height: 400px;
-    width: 400px;
-    border: solid 2px blue;
+.photo-wrapper {
+    border: solid 2px #11ABC1;
     padding: 10px;
     margin: 40px;
 }
 
+.photo-wrapper:hover {
+    border: solid 3px #11ABC1;
+}
