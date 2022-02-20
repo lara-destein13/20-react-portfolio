@@ -43,8 +43,8 @@ class Header extends Component {
             <div className="Header">
                 <div className="Name">Lara DeStein</div>
                     <nav className="Nav">
-                        <a onClick={this.aboutMeClicked} className="Link">&nbsp;AboutMe&nbsp;</a>
-                        <a onClick={this.contactMeClicked} className="Link">&nbsp;ContactMe&nbsp;</a>
+                        <a onClick={this.aboutMeClicked} className="Link">&nbsp;About Me&nbsp;</a>
+                        <a onClick={this.contactMeClicked} className="Link">&nbsp;Contact Me&nbsp;</a>
                         <a onClick={this.portfolioClicked} className="Link">&nbsp;Portfolio&nbsp;</a>
                         <a onClick={this.resumeClicked} className="Link">&nbsp;Resume&nbsp;</a>
                     </nav>    
