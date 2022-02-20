@@ -2,5 +2,26 @@
     background-color: white;
     display: flex;
     flex-grow: 1;
+    flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.Photo {
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+}
+
+.lara-photo {
+    height: 500px;
+    width: 400px;
+}
+
+.Paragraph {
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    line-height: 2em;
 }
