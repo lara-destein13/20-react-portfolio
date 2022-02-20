@@ -15,7 +15,12 @@ class Resume extends Component {
     // render
     render() {
         return (
-            <div className="Resume">Resume</div>
+            <div className="Resume">
+                <li>
+                    <ul>HTML</ul>
+                </li>
+
+            </div>
         );
     }
 }
