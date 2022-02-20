@@ -16,6 +16,10 @@ class ContactMe extends Component {
     render() {
         return (
             <div className="ContactMe">
+                <div className="contact-info">
+                    Phone: (925) 819-1194<br></br>
+                    Email: laradestein13@gmail.com
+                </div>
                 <form className="Form">
                     <label for="name" className="label">Enter full name:</label>
                     <input type="text" className="text-input" />
