@@ -22,6 +22,14 @@ class Project extends Component {
         console.log("mouseOut");
         this.setState({ popUpDisplay: "none" });
     }
+    pagesClicked(event) {
+        event.preventDefault();
+        console.log("pagesClicked");
+    }
+    githubClicked(event) {
+        event.preventDefault();
+        console.log("githubClicked");
+    }
 
     // render
     render() {
@@ -35,7 +43,14 @@ class Project extends Component {
                 <div>
                     <img className="photo" src={image} width="400px" height="400px" />
                 </div>
-                <div className="pop-up" style={style}>content</div>
+                <div className="pop-up" style={style}>
+                    <div className="pages">
+                        <button onClick={this.pagesClicked}>pages</button>
+                    </div>
+                    <div className="github">
+                        <button onClick={this.githubClicked}>github</button>
+                    </div>
+                </div>
             </div>           
         );
     }
