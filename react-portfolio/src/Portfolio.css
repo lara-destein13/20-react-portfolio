@@ -6,11 +6,11 @@
 }
 
 .photo-wrapper {
-    border: solid 5px #11ABC1;
+    border: solid 2px #11ABC1;
     padding: 10px;
     margin: 40px;
 }
 
 .photo-wrapper:hover {
-    border: solid 8px #11ABC1;
+    border: solid 3px #11ABC1;
 }
