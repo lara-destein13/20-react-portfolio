@@ -26,37 +26,43 @@ class Portfolio extends Component {
             <div className="Portfolio">  
                 <div className="project-wrapper">
                     <Project
-                        pages="https://lara-destein13.github.io/password-generator"
+                        pagesUrl="https://lara-destein13.github.io/password-generator"
+                        githubUrl="https://github.com/lara-destein13/password-generator"
                         image={password}>    
                     </Project>
                 </div>    
                 <div className="project-wrapper">
                     <Project
-                        pages="https://lara-destein13.github.io/4-code-quiz/"
+                        pagesUrl="https://lara-destein13.github.io/4-code-quiz/"
+                        githubUrl="https://github.com/lara-destein13/4-code-quiz"
                         image={quiz}>  
                     </Project>
                 </div>  
                 <div className="project-wrapper">
                     <Project
-                        pages="https://lara-destein13.github.io/5-work-day-scheduler/"
+                        pagesUrl="https://lara-destein13.github.io/5-work-day-scheduler/"
+                        githubUrl="https://github.com/lara-destein13/5-work-day-scheduler"
                         image={scheduler}>      
                     </Project>
                 </div>
                 <div className="project-wrapper">
                     <Project
-                        pages="https://lara-destein13.github.io/weather"
+                        pagesUrl="https://lara-destein13.github.io/weather"
+                        githubUrl="https://github.com/lara-destein13/weather"
                         image={weather}>      
                     </Project>
                 </div>
                 <div className="project-wrapper">
                     <Project
-                        pages="https://lara-destein13.github.io/my-backyard-trails/"
+                        pagesUrl="https://lara-destein13.github.io/my-backyard-trails/"
+                        githubUrl="https://github.com/lara-destein13/my-backyard-trails"
                         image={trails}>      
                     </Project>
                 </div>
                 <div className="project-wrapper">
                     <Project
-                        pages="https://lara-destein13.github.io/stick-ease/"
+                        pagesUrl="https://lara-destein13.github.io/stick-ease/"
+                        githubUrl="https://github.com/lara-destein13/stick-ease"
                         image={stick}>  
                     </Project>    
                 </div>             

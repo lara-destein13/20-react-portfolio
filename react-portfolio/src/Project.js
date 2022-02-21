@@ -24,11 +24,15 @@ class Project extends Component {
     }
     pagesClicked(event) {
         event.preventDefault();
+        const url=this.props.pagesUrl;
         console.log("pagesClicked");
+        window.open(url, 'pagesUrl');
     }
     githubClicked(event) {
         event.preventDefault();
+        const url=this.props.githubUrl;
         console.log("githubClicked");
+        window.open(url, 'githubUrl');
     }
 
     // render
