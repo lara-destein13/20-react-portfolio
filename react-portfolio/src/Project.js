@@ -9,32 +9,37 @@ class Project extends Component {
         autoBind(this);
         
         this.state = {
+            popUpDisplay: "none",
         }
     }
     mouseOver(event) {
         event.preventDefault();
         console.log("mouseOver");
+        this.setState({ popUpDisplay: "inline-block" });
+    }
+    mouseOut(event) {
+        event.preventDefault();
+        console.log("mouseOut");
+        this.setState({ popUpDisplay: "none" });
     }
 
     // render
     render() {
-        const pages=this.props.pages
         const image=this.props.image
-
-
-        
+        const popUpDisplay=this.state.popUpDisplay
+        console.log(`popUpDisply: ${popUpDisplay}`);
+        const style={display:popUpDisplay}
 
         return (
-            <div className="Project" onMouseOver={this.mouseOver}>
+            <div className="Project" onMouseOver={this.mouseOver} onMouseOut={this.mouseOut}>
                 <div>
                     <img className="photo" src={image} width="400px" height="400px" />
                 </div>
-            </div>
-           
+                <div className="pop-up" style={style}>content</div>
+            </div>           
         );
     }
 }
 
 export default Project;
 
-{/* <div className="pop-up"> */}
