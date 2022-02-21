@@ -5,6 +5,19 @@
     flex-wrap: wrap;
 }
 
+
+.Portfolio .project-wrapper {
+    border: solid 2px #11ABC1;
+    padding: 10px;
+    margin: 40px;
+}
+/* 
+.photo-wrapper:hover {
+    border: solid 3px #11ABC1;
+}
+
+
+
 .photo-wrapper {
     border: solid 2px #11ABC1;
     padding: 10px;
@@ -13,4 +26,4 @@
 
 .photo-wrapper:hover {
     border: solid 3px #11ABC1;
-}
+} */

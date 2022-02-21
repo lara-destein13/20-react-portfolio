@@ -24,35 +24,42 @@ class Portfolio extends Component {
     render() {
         return (
             <div className="Portfolio">  
-                <Project
-                    pages="https://lara-destein13.github.io/password-generator"
-                    image={password}>    
-                </Project>
-                
-                <Project
-                    pages="https://lara-destein13.github.io/4-code-quiz/"
-                    image={quiz}>  
-                </Project>
-
-                <Project
-                    pages="https://lara-destein13.github.io/5-work-day-scheduler/"
-                    image={scheduler}>      
-                </Project>
-
-                <Project
-                    pages="https://lara-destein13.github.io/weather"
-                    image={weather}>      
-                </Project>
-
-                <Project
-                    pages="https://lara-destein13.github.io/my-backyard-trails/"
-                    image={trails}>      
-                </Project>
-
-                <Project
-                    pages="https://lara-destein13.github.io/stick-ease/"
-                    image={stick}>  
-                </Project>             
+                <div className="project-wrapper">
+                    <Project
+                        pages="https://lara-destein13.github.io/password-generator"
+                        image={password}>    
+                    </Project>
+                </div>    
+                <div className="project-wrapper">
+                    <Project
+                        pages="https://lara-destein13.github.io/4-code-quiz/"
+                        image={quiz}>  
+                    </Project>
+                </div>  
+                <div className="project-wrapper">
+                    <Project
+                        pages="https://lara-destein13.github.io/5-work-day-scheduler/"
+                        image={scheduler}>      
+                    </Project>
+                </div>
+                <div className="project-wrapper">
+                    <Project
+                        pages="https://lara-destein13.github.io/weather"
+                        image={weather}>      
+                    </Project>
+                </div>
+                <div className="project-wrapper">
+                    <Project
+                        pages="https://lara-destein13.github.io/my-backyard-trails/"
+                        image={trails}>      
+                    </Project>
+                </div>
+                <div className="project-wrapper">
+                    <Project
+                        pages="https://lara-destein13.github.io/stick-ease/"
+                        image={stick}>  
+                    </Project>    
+                </div>             
             </div>
         )
     }
