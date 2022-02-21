@@ -13,5 +13,14 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    z-index: 1000;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    padding-top: 170px;
+}
+
+.Project .pop-up button {
+    background-color: blue;
+    margin-bottom: 5px;
+    padding: 10px;
 }
