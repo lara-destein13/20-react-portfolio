@@ -11,6 +11,10 @@ class Project extends Component {
         this.state = {
         }
     }
+    mouseOver(event) {
+        event.preventDefault();
+        console.log("mouseOver");
+    }
 
     // render
     render() {
@@ -21,9 +25,16 @@ class Project extends Component {
         
 
         return (
-            <img className="photo" src={image} width="400px" height="400px" />
+            <div className="Project" onMouseOver={this.mouseOver}>
+                <div>
+                    <img className="photo" src={image} width="400px" height="400px" />
+                </div>
+            </div>
+           
         );
     }
 }
 
 export default Project;
+
+{/* <div className="pop-up"> */}

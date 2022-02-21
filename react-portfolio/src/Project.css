@@ -1,5 +1,17 @@
 .Project {
-    height: 300px;
-    width: 300px;
-    border: 2px solid red;
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+
+.Project img {
+    width: 400px;
+    hieght:;
+} 
+
+.Project .pop-up {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
 }
