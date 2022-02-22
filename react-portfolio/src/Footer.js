@@ -15,7 +15,17 @@ class Footer extends Component {
     // render
     render() {
         return (
-            <div className="Footer">Footer</div>
+            <div className="Footer">
+                <div>
+                    <a href="https://github.com/lara-destein13">github</a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/lara-destein-6353bb149/">linkedin</a>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/lara.destein">facebook</a>
+                </div>   
+            </div>
         );
     }
 }
