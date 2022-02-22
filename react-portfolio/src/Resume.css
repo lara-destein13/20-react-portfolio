@@ -4,3 +4,19 @@
     flex-direction: column;
 }
 
+.Resume a {
+    width: 200px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 20px; 
+    text-align: center;
+    text-decoration: none;
+    color: #11ABC1;
+    border: 2px solid #11ABC1;
+    border-radius: 12px;
+}
+
+.Resume a:hover {
+    border: 2.5px solid #2b7682;
+    border-radius: 12px;  
+}

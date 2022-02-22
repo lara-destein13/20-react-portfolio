@@ -16,9 +16,9 @@ class Resume extends Component {
     render() {
         return (
             <div className="Resume">
-                <ul>
-                    <li>Click here to download my resume</li>
-                </ul>
+                <a href="/Lara-DeStein-Resume.pages" download>
+                    Download Resume
+                </a>    
                 <ul>
                     <li>Front-end Proficiencies
                         <ul>
@@ -44,12 +44,10 @@ class Resume extends Component {
                             <li>GraphQL</li>
                         </ul>
                     </li>    
-                </ul>
-
-
+                </ul>       
             </div>
-        );
-    }
-}
+            );
+        }        
+    }    
 
 export default Resume;
