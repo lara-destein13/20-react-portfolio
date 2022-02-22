@@ -47,5 +47,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 Application runs in the browswer and can be accessed at: 
 https://lara-destein13.github.io/20-react-portfolio/
 
+<img width="1073" alt="Screen Shot 2022-02-22 at 3 57 37 PM" src="https://user-images.githubusercontent.com/88476888/155218358-0476cf59-e5d6-4694-89ae-7dbee6e9c859.png">
+
 ## Contributing
 Made with &hearts; by Lara DeStein
