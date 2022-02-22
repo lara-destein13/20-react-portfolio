@@ -16,6 +16,7 @@ class ContactMe extends Component {
     render() {
         return (
             <div className="ContactMe">
+                <h2 className="contact-me-header">Contact Me</h2> 
                 <div className="contact-info">
                     Phone: (925) 819-1194<br></br>
                     Email: laradestein13@gmail.com
