@@ -7,8 +7,8 @@
 .Resume a {
     width: 200px;
     padding: 10px;
-    margin-top: 40px;
-    margin-left: 20px; 
+    margin-top: 20px;
+    margin-left: 40px; 
     text-align: center;
     text-decoration: none;
     color: #11ABC1;
@@ -22,3 +22,14 @@
     color: #2b7682;
 }
 
+.resume-header {
+    flex-direction: row;
+    color: #2b7682;
+    width: 100%;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.shift {
+    margin-left: 25px;
+}

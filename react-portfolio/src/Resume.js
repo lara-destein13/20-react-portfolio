@@ -16,11 +16,12 @@ class Resume extends Component {
     render() {
         return (
             <div className="Resume">
+            <h2 className="resume-header">Resume</h2>      
                 <a href="/Lara-DeStein-Resume.pages" download>
                     Download Resume
                 </a>    
                 <ul>
-                    <li className="bold">Front-end Proficiencies
+                    <li className="shift">Front-end Proficiencies
                         <ul>
                             <li>HTML</li>
                             <li>CSS</li>
@@ -33,7 +34,7 @@ class Resume extends Component {
                     </li>    
                 </ul>
                 <ul>
-                    <li className="bold">Back-end Proficiencies
+                    <li className="shift">Back-end Proficiencies
                         <ul>
                             <li>APIs</li>
                             <li>Node</li>

@@ -23,7 +23,8 @@ class Portfolio extends Component {
     // render
     render() {
         return (
-            <div className="Portfolio">  
+            <div className="Portfolio">
+             <h2 className="portfolio-header">Portfolio</h2>   
                 <div className="project-wrapper">
                     <Project
                         pagesUrl="https://lara-destein13.github.io/password-generator"
