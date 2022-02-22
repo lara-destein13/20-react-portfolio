@@ -20,7 +20,7 @@ class Resume extends Component {
                     Download Resume
                 </a>    
                 <ul>
-                    <li>Front-end Proficiencies
+                    <li className="bold">Front-end Proficiencies
                         <ul>
                             <li>HTML</li>
                             <li>CSS</li>
@@ -33,7 +33,7 @@ class Resume extends Component {
                     </li>    
                 </ul>
                 <ul>
-                    <li>Back-end Proficiencies
+                    <li className="bold">Back-end Proficiencies
                         <ul>
                             <li>APIs</li>
                             <li>Node</li>
