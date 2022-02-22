@@ -45,7 +45,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## Usage
 
 Application runs in the browswer and can be accessed at: 
-
+https://lara-destein13.github.io/20-react-portfolio/
 
 ## Contributing
 Made with &hearts; by Lara DeStein
