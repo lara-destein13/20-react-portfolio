@@ -17,25 +17,32 @@ class Resume extends Component {
         return (
             <div className="Resume">
                 <ul>
+                    <li>Click here to download my resume</li>
+                </ul>
+                <ul>
                     <li>Front-end Proficiencies
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                        <li>JQuery</li>
-                        <li>responsive design</li>
-                        <li>React</li>
-                        <li>Bootstrap</li>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>JQuery</li>
+                            <li>responsive design</li>
+                            <li>React</li>
+                            <li>Bootstrap</li>
+                        </ul>                        
                     </li>    
                 </ul>
                 <ul>
                     <li>Back-end Proficiencies
-                        <li>APIs</li>
-                        <li>Node</li>
-                        <li>Express</li>
-                        <li>MySQL, Sequelize</li>
-                        <li>MongoDB, Mongoose</li>
-                        <li>REST</li>
-                        <li>GraphQL</li>
+                        <ul>
+                            <li>APIs</li>
+                            <li>Node</li>
+                            <li>Express</li>
+                            <li>MySQL, Sequelize</li>
+                            <li>MongoDB, Mongoose</li>
+                            <li>REST</li>
+                            <li>GraphQL</li>
+                        </ul>
                     </li>    
                 </ul>
 
