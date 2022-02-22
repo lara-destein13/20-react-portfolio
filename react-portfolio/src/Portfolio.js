@@ -71,48 +71,4 @@ class Portfolio extends Component {
     }
 }        
 
-
-
-
-
-
-
-// render() {
-//     return (
-//         <div className="Portfolio">  
-//             <a href="https://lara-destein13.github.io/password-generator/">
-//                 <div className="photo-wrapper">
-//                     <img className="photo" src={password} width="400px" height="400px" />
-//                 </div>                    
-//             </a>
-//             <a href="https://lara-destein13.github.io/4-code-quiz/">
-//                 <div className="photo-wrapper">
-//                     <img className="photo" src={quiz} width="400px" height="400px" />
-//                 </div>                    
-//             </a>
-//             <a href="https://lara-destein13.github.io/5-work-day-scheduler/">
-//                 <div className="photo-wrapper">
-//                     <img className="photo" src={scheduler} width="400px" height="400px" />
-//                 </div>                    
-//             </a>
-//             <a href="https://lara-destein13.github.io/weather/">
-//                 <div className="photo-wrapper">
-//                     <img className="photo" src={weather} width="400px" height="400px" />
-//                 </div>                    
-//             </a>
-//             <a href="https://lara-destein13.github.io/my-backyard-trails/">
-//                 <div className="photo-wrapper">
-//                     <img className="photo" src={trails} width="400px" height="400px" />
-//                 </div>                    
-//             </a>
-//             <a href="https://lara-destein13.github.io/stick-ease/">
-//                 <div className="photo-wrapper">
-//                     <img className="photo" src={stick} width="400px" height="400px" />
-//                 </div>                    
-//             </a>
-//         </div>
-//     );
-
-
-
 export default Portfolio;

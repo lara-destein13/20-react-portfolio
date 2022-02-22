@@ -17,10 +17,20 @@
     width: 400px;
     height: 400px;
     padding-top: 170px;
+    background-color: rgba(238, 238, 238, 0.5);
 }
 
 .Project .pop-up button {
-    background-color: blue;
-    margin-bottom: 5px;
-    padding: 10px;
+    background-color: rgba(17, 171, 193, 1.0);
+    border: 2px solid #11ABC1;
+    border-radius: 12px;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px 50px;
+    font-size: 18px;
+}
+
+.Project .pop-up button:hover {
+    border: 2.5px solid #2b7682;
+    border-radius: 12px;
 }
