@@ -1,7 +1,7 @@
 import autoBind from 'auto-bind';
 import React, { Component } from 'react';
 import './AboutMe.css';
-import logo from './lara-pic.png';
+import lara from './lara-pic.png';
 
 
 class AboutMe extends Component {
@@ -20,7 +20,7 @@ class AboutMe extends Component {
         return (
             <div className="AboutMe">
                 <div className="Photo">
-                    <img className="lara-photo" src={logo} />
+                    <img className="profile" src={lara} width="400px" height="500px" />
                 </div>
                 <div className="Paragraph">
                     My name is Lara DeStein and I am a student at Vanderbilt Universty's Coding Bootcamp, seeking a career in full-stack web development.
