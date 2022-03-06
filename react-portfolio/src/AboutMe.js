@@ -24,15 +24,15 @@ class AboutMe extends Component {
                         <img className="profile" src={lara} width="400px" height="500px" />
                     </div>
                     <div className="Paragraph">
-                        My name is Lara DeStein and I am a student at Vanderbilt Universty's Coding Bootcamp, seeking a career in full-stack web development.
-                        I graduated from the Universtiy of California Davis with a BA in Psychology in 2017. I began working for East Bay Innovations, a
-                        non-profit organization whose mission is to empower individuals with disabilities to live in their own homes, work in jobs of their 
-                        choosing, and be a part of their community.
-                        After working at EBI as a Direct Support Professional, Executive Administrative Assistant, 
-                        and Billing Manager, I reflected upon what skills I could develop to continue growing professionally. As a billing manager, I realized some 
-                        needs that could be met if we incorporated new databases. We could serve more clients and simplify processes. I hope to use the skills I 
-                        acquire through Vanderbilt University's Coding Bootcamp to build websites, databases, and applications for agencies whose mission is 
-                        helping others.    
+                        My name is Lara DeStein and I am a recent graduate of Vanderbilt University's Coding Bootcamp,
+                       a deeply engaging, online Full Stack Flex course that gives students the knowldege and skills
+                       to build dynamic end-to-end web applications and become a full stack web developer in 24 weeks.
+                       I have a passion for learning, problem solving, and personal growth. At my last position, I worked
+                       in billing and was able to create spreadsheets and invent systems to improve tracking and
+                       organization. I got to work alongside our IT staff and saw the role tech played in tracking
+                       information and solving problems in ways my spreadsheets were limited. I thought about how much
+                       more I could contribute if I could broaden my skillset by learning full-stack web development. I
+                       look forward to working as a full stack web developer. 
                     </div>             
             </div>
         )
