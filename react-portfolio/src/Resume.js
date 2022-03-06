@@ -17,7 +17,7 @@ class Resume extends Component {
         return (
             <div className="Resume">
             <h2 className="resume-header">Resume</h2>      
-                <a href="/Lara-DeStein-Resume.pages" download>
+                <a href="/laradestein_resume.pages" download>
                     Download Resume
                 </a>    
                 <ul>
