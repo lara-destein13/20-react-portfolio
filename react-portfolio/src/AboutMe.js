@@ -24,15 +24,15 @@ class AboutMe extends Component {
                         <img className="profile" src={lara} width="400px" height="500px" />
                     </div>
                     <div className="Paragraph">
-                        My name is Lara DeStein and I am a recent graduate of Vanderbilt University's Coding Bootcamp,
-                       a deeply engaging, online Full Stack Flex course that gives students the knowldege and skills
-                       to build dynamic end-to-end web applications and become a full stack web developer in 24 weeks.
-                       I have a passion for learning, problem solving, and personal growth. At my last position, I worked
-                       in billing and was able to create spreadsheets and invent systems to improve tracking and
-                       organization. I got to work alongside our IT staff and saw the role tech played in tracking
-                       information and solving problems in ways my spreadsheets were limited. I thought about how much
-                       more I could contribute if I could broaden my skillset by learning full-stack web development. I
-                       look forward to working as a full stack web developer. 
+                        My name is Lara DeStein and I am a recent graduate of Vanderbilt University's Coding Bootcamp, 
+                        a deeply engaging course that gives students the knowledge and skills to build dynamic end-to-end 
+                        web applications and become a full stack web developer in 24 weeks. I hope to find a position where 
+                        I'll be working with top-tier Web Developers using the industry's best tools and practices. 
+                        I enjoy working with passionate developers to build cool things. I'm always ready to learn new 
+                        skills and go the extra mile to do that. This is a career change for me. Until recently I've worked 
+                        for a not-for-profit agency helping people with disabilities to live independently in their own homes. 
+                        I earned a reputation for being a person with both empathy and drive. I was promoted three times 
+                        in four years. Thank you for considering me for your team.
                     </div>             
             </div>
         )
