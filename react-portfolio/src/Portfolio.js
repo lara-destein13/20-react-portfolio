@@ -27,8 +27,8 @@ class Portfolio extends Component {
              <h2 className="portfolio-header">Portfolio</h2>   
                 <div className="project-wrapper">
                     <Project
-                        pagesUrl="https://lara-destein13.github.io/password-generator"
-                        githubUrl="https://github.com/lara-destein13/password-generator"
+                        pagesUrl="https://lara-destein13.github.io/pw/"
+                        githubUrl="https://github.com/lara-destein13/pw"
                         image={password}>    
                     </Project>
                 </div>    
