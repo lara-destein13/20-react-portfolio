@@ -16,10 +16,8 @@ class Resume extends Component {
     render() {
         return (
             <div className="Resume">
-            <h2 className="resume-header">Resume</h2>      
-                <a href="../public/lara-destein-resume-2022.pdf" download>
-                    Download Resume
-                </a>    
+            <h2 className="resume-header">Resume</h2>   
+                <a href="https://lara-destein-public.s3.us-east-2.amazonaws.com/lara-destein-resume-2022.pdf">Download Resume</a>
                 <ul>
                     <li className="shift">Front-end Proficiencies
                         <ul>
